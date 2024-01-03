@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.first-div,  .second-div{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin: auto 30px;
+    padding: 20px;
+}
+.form{
+    display: block;
+    width: 90%;
+    margin: 20px;
+    box-shadow: 0 0 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.form-content{
+    display: block;
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 2px solid grey;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.btn-green{
+    background-color: green;
+    color: white;
+    border: none;
+    width: 50%;
+    margin: 20px auto;
+}
+a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+hr{
+    width: 90%;
+}
+h1{
+    font-size: 50px;
+    color: darkblue;
+}
+h2{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: justify;
+}
+h4, p{
+    display: block;
+    font-weight: 400;
+    text-align: center;
+}
